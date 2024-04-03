@@ -538,6 +538,7 @@
     visibility: hidden;
     opacity: 0;
     top: 100%;
+    display: none !important;
 }
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible;
