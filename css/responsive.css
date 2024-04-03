@@ -518,6 +518,7 @@
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .header-menu .navigation>ul>li .dropdown-icon{
     margin-right: 15px;
@@ -543,7 +544,11 @@
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible;
     opacity: 1;
-    display: block !important;
+    display: flex !important;
+}
+.navigation .dropdown-menu{
+    position: static;
+    width: 100%;
 }
 .banner-main {
     flex-wrap: wrap;
