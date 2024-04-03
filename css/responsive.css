@@ -514,8 +514,13 @@
 .toggle-bar.show i::before{
         content: "\f00d";
 }
-.header-menu .navigation ul li{
+.header-menu .navigation ul li {
     padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu .navigation>ul>li .dropdown-icon{
+    margin-right: 15px;
 }
 .header-menu .navigation>ul>li+li {
     margin-left: 0;
