@@ -919,13 +919,14 @@ $window.scroll(function() {
                 $('.dropdown-menu').removeClass('open-menu');
 
             });
+            $('.navigation ul li .dropdown-icon').click(function () {
+                $('.dropdown-menu').removeClass('open-menu')
+            })
             $('.navigation ul li .dropdown-icon').click(function(){
                 $('.dropdown-menu').addClass('open-menu');
+                $(this).addClass('open-menu');
+
             });
-               $('.navigation ul li .dropdown-icon').click(function () {
-                        $('.dropdown-menu').removeClass('open-menu')
-                        $(this).addClass('open-menu');
-                    })
 
         });
     </script>
