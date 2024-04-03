@@ -502,13 +502,12 @@
     top: 36px;
     display: block;
 }
-.header-menu .navigation ul {
+.header-menu .navigation ul{
     display: none;
-    position: fixed;
+    position: absolute;
     right: 0;
-    top: 98px;
+    top: 58px;
     width: 50%;
-    height: 100%;
     background: #589195;
     z-index: 1;
 }
