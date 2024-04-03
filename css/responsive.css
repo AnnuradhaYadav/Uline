@@ -502,7 +502,7 @@
     top: 36px;
     display: block;
 }
-.header-menu .navigation >ul {
+.header-menu .navigation ul {
     display: none;
     position: absolute;
     right: 0;
@@ -533,6 +533,14 @@
 }
 .header-menu .navigation ul li a{
     color: #ffff;
+}
+.navigation>ul>li:hover .dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    top: 100%;
+}
+.navigation>ul>li:hover .dropdown-menu.open-menu{
+    
 }
 .banner-main {
     flex-wrap: wrap;
