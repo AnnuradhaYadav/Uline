@@ -918,8 +918,11 @@ $window.scroll(function() {
                 $(this).toggleClass('show')
             });
             $('.dropdown-icon').click(function(){
-                $('.dropdown-menu').toggleClass('open-menu')
+                $('.dropdown-menu').addClass('open-menu')
             })
+               $('.dropdown-icon').click(function () {
+                        $('.dropdown-menu').removeClass('open-menu')
+                    })
 
         });
     </script>
