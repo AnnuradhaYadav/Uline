@@ -539,8 +539,13 @@
     opacity: 0;
     top: 100%;
 }
-.navigation>ul>li:hover .dropdown-menu.open-menu{
-    
+.navigation .dropdown-menu{
+    position: static;
+}
+.navigation>ul>li .dropdown-menu.open-menu{
+    visibility: visible;
+    opacity: 1;
+    display: block !important;
 }
 .banner-main {
     flex-wrap: wrap;
