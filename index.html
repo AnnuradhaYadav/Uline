@@ -916,13 +916,16 @@ $window.scroll(function() {
             $(".toggle-bar").click(function () {
                 $(".navigation ul").slideToggle();
                 $(this).toggleClass('show')
+                $('.dropdown-menu').removeClass('open-menu');
+
             });
-            $('.dropdown-icon').click(function(){
-                $('.dropdown-menu').toggleClass('open-menu')
+            $('.navigation ul li .dropdown-icon').click(function(){
+                $('.dropdown-menu').addClass('open-menu');
             });
-            //    $('.dropdown-icon').click(function () {
-            //             $('.dropdown-menu').removeClass('open-menu')
-            //         })
+               $('.navigation ul li .dropdown-icon').click(function () {
+                        $('.dropdown-menu').removeClass('open-menu')
+                        $(this).addClass('open-menu');
+                    })
 
         });
     </script>
