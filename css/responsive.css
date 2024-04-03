@@ -549,7 +549,7 @@
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible;
     opacity: 1;
-    display: flex !important;
+    display: block !important;
 }
 
 .banner-main {
