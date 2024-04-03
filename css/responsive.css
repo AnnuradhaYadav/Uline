@@ -507,7 +507,7 @@
     position: absolute;
     right: 0;
     top: 58px;
-    width: 100%;
+    width: 50%;
     background: #589195;
     z-index: 1;
 }
@@ -516,6 +516,12 @@
 }
 .header-menu .navigation ul li{
     padding-top: 10px;
+}
+.header-menu .navigation>ul>li+li {
+    margin-left: 0;
+}
+.header-menu .navigation ul li a{
+    line-height: 30px;
 }
 .header-menu .navigation ul li:last-child{
     padding-bottom: 10px;
