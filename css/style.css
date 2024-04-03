@@ -15,7 +15,11 @@ body {
 }
 
 .header {
-    width: 100%;
+        width: 100%;
+            background: #DEECEC;
+            border-bottom: 1px solid #84BABE;
+            position: relative;
+            z-index: 9;
 }
 .container {
     width: 100%;
@@ -23,7 +27,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-.header-top.sticky{
+.header.sticky{
     position: fixed;
     left: 0;
     z-index: 1111;
@@ -44,13 +48,8 @@ body {
         transition: 0.9s;
     }
 }
-.header-top {
-    width: 100%;
-    background: #DEECEC;
-    border-bottom: 1px solid #84BABE;
-    position: relative;
-    z-index: 9;
-}
+
+
 
 .search-for-icon {
     position: absolute;
@@ -355,7 +354,7 @@ body {
 
 
 
-.header-bottom {
+.banner-section {
     padding-top: 45px;
     padding-bottom: 64px;
     background: #DEECEC;
