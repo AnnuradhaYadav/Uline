@@ -508,7 +508,7 @@
     right: 0;
     top: 98px;
     width: 50%;
-    background: #589195;
+    background: #a3ced1;
     z-index: 1;
 }
 .toggle-bar.show i::before{
@@ -532,7 +532,7 @@
     padding-bottom: 10px;
 }
 .header-menu .navigation ul li a{
-    color: #000;
+    color: #ffff;
 }
 .banner-main {
     flex-wrap: wrap;
