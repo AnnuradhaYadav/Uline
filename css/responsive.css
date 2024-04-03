@@ -540,7 +540,8 @@
     top: 100%;
 }
 .navigation .dropdown-menu{
-    position: static;
+    position: static !important;
+    width: 100%;
 }
 .navigation>ul>li .dropdown-menu.open-menu{
     visibility: visible;
