@@ -502,7 +502,7 @@
     top: 36px;
     display: block;
 }
-.header-menu .navigation ul {
+.header-menu .navigation >ul {
     display: none;
     position: absolute;
     right: 0;
@@ -514,7 +514,7 @@
 .toggle-bar.show i::before{
         content: "\f00d";
 }
-.header-menu .navigation ul li {
+.header-menu .navigation >ul >li {
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
