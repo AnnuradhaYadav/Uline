@@ -546,10 +546,7 @@
     opacity: 1;
     display: flex !important;
 }
-.navigation .dropdown-menu{
-    position: static;
-    width: 100%;
-}
+
 .banner-main {
     flex-wrap: wrap;
 }
