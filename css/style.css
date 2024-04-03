@@ -200,9 +200,9 @@ body {
     align-items: center;
     padding-right: 15px;
 }
-.dropdown-menu .dropdown-menu-home{
+/* .dropdown-menu .dropdown-menu-home{
     position: absolute;
-    left: 200px;
+    left: 200px;  
     top: 0;
     padding: 0 15px;
     background-color: #589195;
@@ -232,7 +232,7 @@ body {
 .dropdown-menu li:hover .dropdown-menu-home{
     visibility: visible;
     opacity: 1;
-}
+} */
 .header-icon {
     display: flex;
     align-items: center;
