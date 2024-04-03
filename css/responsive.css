@@ -539,7 +539,7 @@
     opacity: 0;
     top: 100%;
 }
-.navigation>ul>li .dropdown-menu.open-menu{
+.navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible;
     opacity: 1;
     display: block !important;
