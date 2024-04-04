@@ -546,7 +546,7 @@
 }
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 .navigation .dropdown-menu{
     position: static !important;
