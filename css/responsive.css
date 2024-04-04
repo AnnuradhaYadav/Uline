@@ -547,10 +547,12 @@
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible !important;
     opacity: 1 !important;
+    display: block !important;
 }
 .navigation .dropdown-menu{
     position: static !important;
     width: 100% !important;
+    display: none;
 }
 .banner-main {
     flex-wrap: wrap;
