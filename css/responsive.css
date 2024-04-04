@@ -521,8 +521,8 @@
     width: 100%;
     flex-wrap: wrap;
 }
-.header-menu .navigation ul li{
-    padding-left: 0;
+.header-menu .navigation >ul >li{
+    padding-left: 10px;
 }
 .header-menu .navigation>ul>li .dropdown-icon{
     margin-right: 15px;
