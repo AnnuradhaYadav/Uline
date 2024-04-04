@@ -916,7 +916,7 @@ $window.scroll(function() {
             $(".toggle-bar").click(function () {
                 $(".navigation ul").slideToggle();
                 $(this).toggleClass('show')
-                $('.dropdown-menu').removeClass('open-menu');
+                $('.navigation >ul >li').removeClass('open-menu');
 
             });
             $('.dropdown-icon').click(function () {

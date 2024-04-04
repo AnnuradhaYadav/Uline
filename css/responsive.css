@@ -552,7 +552,7 @@
 .navigation .dropdown-menu{
     position: static !important;
     width: 100% !important;
-    display: none;
+    display: none !important;
 }
 .banner-main {
     flex-wrap: wrap;
