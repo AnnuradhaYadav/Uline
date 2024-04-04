@@ -539,19 +539,10 @@
     visibility: hidden;
     opacity: 0;
     top: 100%;
-    display: none !important;
-}
-.navigation .dropdown-menu{
-    width: 100%;
-    position: static;
-    display: none !important;
 }
 .navigation>ul>li.open-menu .dropdown-menu{
     visibility: visible;
-    opacity: 1;
-    display: block !important;
 }
-
 .banner-main {
     flex-wrap: wrap;
 }
